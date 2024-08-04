@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Noita-Blackletter';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url(/NoitaBlackletter-Regular.ttf) format('truetype');
+}
+
+.noit-title {
+  font-family: "Noita-Blackletter", serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+a {
+  color: lightskyblue;
+}
+
+a:visited {
+  color: lightblue;
+}

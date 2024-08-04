@@ -1,0 +1,16 @@
+@if (selectedHamis | async; as hamis) {
+  <div class="viewer">
+    <img src="{{hamis.permalinkGif}}" alt="Image of {{hamis.name}}">
+    <p>{{hamis.name}}</p>
+    @if (hamis.description) {
+      <p [innerHTML]="hamis.description"></p>
+    }
+
+    <a [href]="hamis.permalinkGif" target="_blank">GIF Permalink</a>
+    <a [href]="hamis.permalinkPng" target="_blank">PNG Permalink</a>
+
+    <p>Source: <span [innerHTML]="hamis.credit"></span></p>
+  </div>
+} @else {
+  <p>Loading...</p>
+}

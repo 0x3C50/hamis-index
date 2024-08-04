@@ -1,0 +1,15 @@
+@if(hamisList | async; as hamikset) {
+  <div class="hamlist-parent">
+    <div class="hamlist">
+      @for(hamis of hamikset; track hamis.id) {
+        <div class="hamis" [routerLink]="['/view-hamis', hamis.id]">
+          <img class="ham" [src]="hamis.permalinkGif" [alt]="hamis.name">
+          <p>{{hamis.name}}</p>
+        </div>
+
+      }
+    </div>
+  </div>
+} @else {
+  <p>Loading Hämikset...</p>
+}

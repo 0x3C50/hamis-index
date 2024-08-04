@@ -1,0 +1,42 @@
+.title {
+  font-size: xxx-large;
+}
+
+.spacer-bar {
+  width: 20%;
+  height: 3px;
+}
+.sbl {
+background: linear-gradient(90deg, rgba(0, 0, 0,0) 0%, white 79%)
+}
+.sbr {
+  background: linear-gradient(-90deg, rgba(0, 0, 0,0) 0%, white 79%)
+}
+
+.title-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.hamis {
+  height: 1em;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.foot {
+  width: 100vw;
+  margin-top: auto;
+  background-color: slategray;
+  position: relative;
+  display: block;
+}
+
+
+

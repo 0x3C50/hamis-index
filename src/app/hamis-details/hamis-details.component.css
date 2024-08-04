@@ -1,0 +1,8 @@
+.viewer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", serif;
+}

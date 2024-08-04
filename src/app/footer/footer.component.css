@@ -1,0 +1,16 @@
+.inner-footer {
+  margin: 10px;
+  font-family: "Roboto", serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.inner-footer > div {
+  flex: 1;
+  min-width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

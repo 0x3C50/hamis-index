@@ -1,0 +1,42 @@
+.hamlist {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 90vw;
+  align-items: stretch;
+  justify-content: center;
+  margin-bottom: 20px;
+  /*width: 500px;*/
+}
+.hamlist-parent {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+}
+
+.hamis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid goldenrod;
+}
+
+.hamis:hover {
+  cursor: pointer;
+  border: 2px solid gold;
+}
+
+.hamis > p {
+  font-family: "Roboto", serif;
+  margin: auto 0 0;
+}
+
+.ham {
+  max-height: 100px;
+}
