@@ -4,7 +4,8 @@
   font-style: normal;
   font-weight: normal;
   font-display: swap;
-  src: url(/NoitaBlackletter-Regular.ttf) format('truetype');
+  /* ANGULAR WHY??? I THOUGHT YOU WERE A BASED FRAMEWORK!! WHY THE FUCK DO I HAVE TO DO THIS??? */
+  src: url(../public/NoitaBlackletter-Regular.ttf) format('truetype');
 }
 
 .noit-title {
